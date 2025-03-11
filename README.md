@@ -15,7 +15,8 @@ This project simulates a dice game with various types of moves and scoring combi
   - *Jamb* (Yahtzee)  
 - **Game State:** Tracks the score for each combination, stores the state in a matrix, and allows players to add new elements to the matrix as they play.  
 - **Matrix Representation:** Uses a sparse matrix to track which combinations have been filled in the game and updates the matrix as the game progresses.  
-- **Random Functions:** Utilizes a pseudo-random number generator for simulating dice rolls based on a custom seed.  
+- **Random Functions:** Utilizes a pseudo-random number generator for simulating dice rolls based on a custom seed.
+-  **Monte Carlo Simulation**: The program uses a Monte Carlo method to simulate future dice rolls and calculate the probabilities of achieving certain combinations. Based on these simulations, the program helps decide the best course of action.
 
 ## Requirements
 
